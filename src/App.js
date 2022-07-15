@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Components/assets/Styles/global.scss";
+import FirstPage from "./Components/FirstPage/index";
+import SecondPage from "./Components/SecondPage";
+import Title from "./Components/Title";
+import Footer from "./Components/Footer/index";
+import Nav from "./Components/Navigate";
+import MainTitle from './Components/mainTitle/index';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Nav />
+      <MainTitle className='G_Container' />
+      <Title text="Featured" />
+      <FirstPage className="G_Container" />
+      <Title text="All Stories" />
+      <SecondPage className="G_Container" />
+      {/* <Footer /> */}
     </div>
   );
 }
