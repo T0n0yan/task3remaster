@@ -1,52 +1,56 @@
-.navContainer {
-  width: 100%;
-  height: 60px;
-  border: 1px solid rgb(232, 232, 232);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.Container {
+  z-index: 999999;
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 60px;
   background-color: white;
-  .nav {
+  border-bottom: 1px solid rgb(190, 189, 189);
+  .navContainer {
+    margin: 0 auto;
+    width: 1140px;
+    height: 60px;
     display: flex;
-    width: 400px;
     justify-content: space-between;
     align-items: center;
-    .links {
-      width: 200px;
-      font-family: system-ui;
-      font-size: 14px;
-      text-decoration: none;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-    }
-    .input {
-      border-radius: 30px;
+    .link-input {
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 1px solid rgb(155, 153, 153);
-      .navInput {
-        border: none;
-        border-radius: 30px;
-        overflow: hidden;
-        font-size: 12px;
-        line-height: 30px;
-        padding-left: 10px;
+      .links {
+        margin-right: 30px;
+
+        a {
+          margin: 5px;
+          text-decoration: none;
+          color: black;
+          font-size: 15px;
+          font-family: system-ui;
+        }
       }
-      .inpImg {
-        margin-right: 10px;
-        width: 25px;
-        height: 25px;
+      .input {
+        border: 1px solid rgb(149, 148, 148);
+        border-radius: 20px ;
+        display: flex;
+        align-items: center;
+        height: 30px;
+        padding:0  10px;
+        .navInput {
+          border: 1px solid transparent;
+          &:focus{
+            outline: none;
+          }
+        }
+        .inpImg {
+          width: 20px;
+          height: 20px;
+          background-image: url('../assets/Images//search.png');
+          background-position: center;
+          background-size: cover;
+          cursor: pointer;
+        }
       }
     }
   }
-}
-@media  screen and (max-width:1200px) {
-    .G_Container{
-      max-width: 1140px;
-    }
 }

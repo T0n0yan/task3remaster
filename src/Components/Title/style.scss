@@ -1,38 +1,37 @@
-.titleBody{
-
-    .titleContainer{
-        width: 1140px;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        .title{
-            font-weight: 700;
-            font-size: 22.4px;
-            border-bottom: 1px solid rgba(42, 41, 41, 0.44);
-            padding-bottom: 5px;
-            font-family: inherit;
-        }
-        .line{
-            width: 100%;
-        }
+.titleBody {
+  .titleContainer {
+    width: 1140px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    .title {
+      font-weight: 700;
+      font-size: 22.4px;
+      border-bottom: 1px solid rgba(42, 41, 41, 0.44);
+      padding-bottom: 5px;
+      font-family: inherit;
     }
+    .line {
+      width: 100%;
+    }
+  }
 }
 
-@media  screen and (max-width:1200px) {
-    .titleBody{
-        max-width: 1200px;
-        width: 100%;
-    }
+@media screen and (max-width: 1200px) {
+  .titleBody {
+    max-width: 1200px;
+    width: 100%;
+  }
 }
-@media  screen and (max-width:1000px) {
-    .titleBody{
-        max-width: 100%;
-        width: 800px;
-    }
+@media screen and (max-width: 1000px) {
+  .titleBody {
+    max-width: 100%;
+    width: 800px;
+  }
 }
-@media  screen and (max-width:767px) {
-    .titleBody{
-        max-width:576px;
-        width: 100%;
-    }
+@media screen and (max-width: 767px) {
+  .titleBody {
+    max-width: 576px;
+    width: 100%;
+  }
 }

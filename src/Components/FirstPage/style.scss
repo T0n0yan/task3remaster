@@ -1,10 +1,10 @@
 .firstPage {
-  // margin-top: 50px
-
+  display: flex;
+  justify-content: space-between;
   .container {
+    margin-top: 10px;
     width: 49%;
     height: max-content;
-    margin: 2px 0;
     display: flex;
     justify-content: space-between;
     border: 1px solid rgb(224, 221, 221);
@@ -109,7 +109,12 @@
   }
 }
 @media screen and(max-width:767px) {
+  .G_Container {
+    max-width: 767px;
+    width: 100%;
+  }
   .firstPage {
+    width: 100%;
     max-width: 567px;
     .container {
       .rightSide {

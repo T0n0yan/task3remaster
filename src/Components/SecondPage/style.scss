@@ -1,6 +1,7 @@
 .secondPage {
   width: 100%;
-  display: absolute;
+  display: flex;
+  justify-content: space-between;
   .containerSecond {
     width: 350px;
     height: 480px;

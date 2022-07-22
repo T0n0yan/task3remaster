@@ -1,0 +1,115 @@
+.authorGLobal {
+  width: 100%;
+  background-color: rgb(251, 249, 249);
+  font-family: system-ui;
+  .avatarPage {
+    margin-top: 60px;
+    width: 100%;
+    height: 350px;
+    font-family: system-ui;
+    background-color: white;
+    border-bottom: 1px solid rgb(237, 237, 237);
+    .avatarContainer {
+      background-color: white;
+      width: 730px;
+      height: 290px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      .mainImg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        width: 80px;
+        height: 80px;
+        background-image: url("../../Components/assets/Images/avatar.jpg");
+      }
+      .leftSideAvatar {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+        .avatarProfiles {
+          width: 80px;
+          height: 40px;
+          border: 1px solid black;
+        }
+        h2 {
+          margin-top: 20px;
+          font-size: 30px;
+        }
+        span {
+          width: 100%;
+          padding: 30px 0;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.7;
+          color: rgba(50, 49, 49, 0.6);
+          .innertext {
+            color: rgb(52, 51, 51);
+            font-weight: bolder;
+          }
+          a {
+            color: rgb(43, 181, 43);
+            text-decoration: none;
+          }
+        }
+        button {
+          margin-top: 20px;
+          width: 80px;
+          height: 35px;
+          border: 1px solid #00ab6b;
+          border-radius: 30px;
+          color: #00ab6b;
+          background-color: transparent;
+          &:focus {
+            margin-top: 20px;
+            width: 80px;
+            height: 35px;
+            border: 0.5px solid #0275d8 #4e91cc;
+            border-radius: 30px;
+            color: #0275d8;
+            box-shadow: 0px 0px 0 1px;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+
+  .secondPageTitle {
+    margin-top: 50px;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    h2 {
+      font-size: 37px;
+      line-height: 50px;
+      font-weight: 500;
+    }
+    .span1 {
+      font-size: 14px;
+      line-height: 18px;
+      color: #657786;
+      font-weight: 500;
+      a {
+        color: #2b7bb9;
+      }
+    }
+    .span2 {
+      font-weight: 500;
+
+      font-size: 18px;
+      line-height: 27px;
+      color: #657786;
+    }
+  }
+}

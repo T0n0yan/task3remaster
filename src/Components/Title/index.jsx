@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.scss'
 
-const Title = (props) => {
+const  Title = (props) => {
   return (
     <div className='G_Container titleBody'>
       <div className='titleContainer'>
